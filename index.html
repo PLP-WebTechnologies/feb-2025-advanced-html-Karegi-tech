@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration and Contacts Page</title>
+</head>
+<h2> Ordered List</h2>
+<body>
+    <ol type="I">
+        <li>Lilian Njeri</li>
+        <li>Ivy Kagure</li>
+        <li>Dedan Kimani</li>
+        <li> Ayub Mwai</li>
+    </ol>
+
+    <h2>Image</h2>
+    <img src="https://images.pexels.com/photos/31246323/pexels-photo-31246323/free-photo-of-vibrant-chestnut-headed-bee-eaters-perched-on-a-branch.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bea eater">
+
+    
+    
+    <h3> HTML TABLE</h3> 
+    
+    <table>
+        <caption>Contacts</caption>
+        <thead>
+            <tr>
+                <th width="130">Name</th>
+                <th width="180">Address</th>
+                <th width="100">Mobile</th>
+                <th width="100">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolour="grey">
+                <td>John Mwangi</td>
+                <td>123 Machakos Kenya</td>
+                <td>123-456-7890</td>
+                <td>john@mwangi.com</td>
+            </tr>
+            <tr bgcolour="light grey">
+                <td>Tasha Njeri</td>
+                <td> 506 Ruai Nirobi Kenya</td>
+                <td> 0703456789</td>
+                <td>tasha@njeri.com</td>
+            </tr>
+            <tr>
+                <td>Moses Elchapo</td>
+                <td>100 Steli Nakuru Kenya</td>
+                <td>0799999900</td>
+                <td>moses@elchapo.com</td>
+            </tr>
+            <tr>
+                <td>Elohim Manuel</td>
+                <td>235 Moscow Russia</td>
+                <td>9585770155</td>
+                <td>elohim@manuel.co.ru</td>
+            </tr>
+            <td>Adebayo Sade</td>
+            <td>567 Lagos Nigeria</td>
+            <td>2370223477789</td>
+            <td>adebayo@sade.com</td>
+
+        </tbody>
+    </table>
+
+    
+    <form action="/submit" method="post">
+       
+       
+        <fieldset>
+            <legend>Registration Form</legend>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Strong password" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Choose a subscription plan:
+                    <input type="radio" id="plan1" name="plan" value="Plan 1">
+                    <span>Plan 1</span>
+                    <input type="radio" id="plan2" name="plan" value="Plan 2">
+                    <span>Plan 2</span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>I agree to the terms and conditions
+                    <input type="checkbox" id="agree" name="agree">
+                </label>
+            </div>
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>&copy; [Marion] 2024</p>
+    </footer>
+
+</body>
+</html>
+
